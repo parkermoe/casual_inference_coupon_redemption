@@ -26,6 +26,8 @@ The analysis utilizes four primary datasets:
 3. **Coupon Details** (`coupon.csv`): Details of the coupons associated with campaigns.
 4. **Coupon Redemption** (`coupon_redempt.csv`): Data on which coupons were redeemed by households.
 
+The dataset along with a detailed description can be found here: [Data Description](https://github.com/Lanbig/CSC465-visualization-project/blob/master/Dataset/dunnhumby%20-%20The%20Complete%20Journey%20User%20Guide.pdf)
+
 ## Methodology
 
 The project follows these steps for analysis:
@@ -36,9 +38,19 @@ The project follows these steps for analysis:
 4. **Propensity Score Matching:** Matching households based on propensity scores to control for confounding variables.
 5. **Statistical Analysis:** Performing statistical tests to compare the redemption rates of the matched groups.
 
+
 ## Findings
 
-Our analysis did not find a statistically significant difference in redemption rates between personalized and non-personalized coupon campaigns. The Mann-Whitney U test yielded a p-value of 0.3173, leading us to fail to reject the null hypothesis.
+Upon analysis, the observed average redemption rate for households that received personalized coupons (Type A) was approximately \( 0.0833 \), or \( 8.33\% \). In contrast, the observed rate for households that were not targeted with personalized coupons (Type B and C) was roughly \( 0.0146 \), or \( 1.46\% \).
+
+This observational data initially suggests a markedly higher effectiveness of personalized coupons in driving redemptions—a near \( 5.7 \)-fold increase over non-personalized ones, which would have significant implications for marketing strategies focused on personalization.
+
+However, when these results were subjected to a rigorous statistical analysis using matched samples to control for confounding variables, the evidence did not support a statistically significant difference between the two groups. The Mann-Whitney U test returned a p-value of \( 0.3173 \), compelling us to maintain the null hypothesis.
+
+This finding brings to light the importance of statistical testing in validating business strategies. While personalized marketing may intuitively seem advantageous, the lack of statistical significance in this case indicates that such an approach did not demonstrably enhance coupon redemption rates within the scope of our study.
+
+For businesses, this underscores the need to critically evaluate the impact of personalized marketing campaigns. It may prompt a re-examination of personalization techniques or a deeper investigation into other potential influences on coupon use. In the face of these results, businesses are advised to consider a broader spectrum of marketing strategies and perhaps integrate additional customer engagement tactics to bolster the effectiveness of coupon campaigns.
+
 
 ## Replicating the Analysis
 
