@@ -8,11 +8,12 @@ This project investigates the effectiveness of personalized coupon campaigns ver
 
 We test the following hypotheses to understand the impact of personalized coupon campaigns:
 
-### Null Hypothesis ($$H_0$$):
+### Null Hypothesis: 
+
 $$H_0: \mu_{\text{personalized}} = \mu_{\text{non-personalized}}$$
 The null hypothesis states that there is no significant difference in the redemption rates between personalized and non-personalized coupons.
 
-### Alternative Hypothesis ($$H_1$$):
+### Alternative Hypothesis:
 $$H_1: \mu_{\text{personalized}} \neq \mu_{\text{non-personalized}}$$
 The alternative hypothesis suggests that personalized coupon campaigns lead to a significantly different redemption rate compared to non-personalized campaigns.
 
