@@ -1,4 +1,5 @@
-# Personalized Coupon Redemption Analysis
+# Coupon Campaign Effectiveness Study
+## Exploring Redemption Rates and Sales Impact via DiD
 
 ## Introduction
 
