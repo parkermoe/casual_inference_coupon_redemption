@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project investigates the effectiveness of personalized coupon campaigns versus non-personalized ones. Using data from various sources, we examine whether personalization in coupon distribution leads to a significant increase in redemption rates.
+This project investigates the effectiveness of personalized coupon campaigns versus non-personalized ones. Using data from various sources, we examine whether personalization in coupon distribution leads to a significant increase in redemption rates. Additionally, we explore the impact of these campaigns on overall daily sales using a difference-in-differences approach.
 
 ## Hypothesis
 
@@ -51,8 +51,6 @@ The visualization plots the kernel density estimates of the redemption rates for
 
 The bootstrap analysis revealed two distinct distributions, with the treatment group displaying a higher mean redemption rate compared to the control group. The 95% confidence interval is shaded in color, delineating the uncertainty around the estimated means. While the visual comparison suggests a difference between the groups, we must proceed with statistical testing to determine if the observed difference is statistically significant.
 
-
-
 ## Findings
 
 Upon analysis, the observed average redemption rate for households that received personalized coupons (Type A) was approximately \( 0.0833 \), or \( 8.33\% \). In contrast, the observed rate for households that were not targeted with personalized coupons (Type B and C) was roughly \( 0.0146 \), or \( 1.46\% \).
@@ -64,6 +62,31 @@ However, when these results were subjected to a rigorous statistical analysis us
 This finding brings to light the importance of statistical testing in validating business strategies. While personalized marketing may intuitively seem advantageous, the lack of statistical significance in this case indicates that such an approach did not demonstrably enhance coupon redemption rates within the scope of our study.
 
 For businesses, this underscores the need to critically evaluate the impact of personalized marketing campaigns. It may prompt a re-examination of personalization techniques or a deeper investigation into other potential influences on coupon use. In the face of these results, businesses are advised to consider a broader spectrum of marketing strategies and perhaps integrate additional customer engagement tactics to bolster the effectiveness of coupon campaigns.
+
+## Difference-in-Differences Analysis
+
+To further our understanding of the campaigns' effectiveness, we conducted a difference-in-differences analysis to assess their impact on daily sales. This econometric technique provided a framework for comparing sales dynamics before, during, and after the campaign periods, controlling for underlying trends.
+
+### Visualization of Campaign Impact
+
+We visualized the total daily sales and overlaid the impact of the top 15 campaigns. The plot employs a color gradient to denote the intensity of each campaign's impact, providing an intuitive understanding of the sales fluctuations associated with the marketing efforts.
+
+(## Difference-in-Differences Analysis
+
+To further our understanding of the campaigns' effectiveness, we conducted a difference-in-differences analysis to assess their impact on daily sales. This econometric technique provided a framework for comparing sales dynamics before, during, and after the campaign periods, controlling for underlying trends.
+
+### Visualization of Campaign Impact
+
+We visualized the total daily sales and overlaid the impact of the top 15 campaigns. The plot employs a color gradient to denote the intensity of each campaign's impact, providing an intuitive understanding of the sales fluctuations associated with the marketing efforts.
+
+(![did_vis](https://github.com/parkermoe/casual_inference_coupon_redemption/assets/75709283/f8f289bc-0f81-4d55-bf8d-90eb0b8a4cae)
+)
+
+*Figure: Daily sales with the top 15 campaigns highlighted, indicating the difference in sales before, during, and after the campaign periods.*
+
+### Findings from DiD Analysis
+
+The analysis revealed variances in the effectiveness of campaigns. Some led to noticeable spikes in sales, while others had a more subdued effect. This nuanced understanding aids in optimizing marketing strategies and resource allocation for future campaigns.)
 
 
 ## Replicating the Analysis
