@@ -38,6 +38,20 @@ The project follows these steps for analysis:
 4. **Propensity Score Matching:** Matching households based on propensity scores to control for confounding variables.
 5. **Statistical Analysis:** Performing statistical tests to compare the redemption rates of the matched groups.
 
+## Preliminary Data Visualization
+
+Before applying propensity score matching, we visualized the distributions of redemption rates for our treatment and control groups. This step was crucial in understanding the data's initial patterns and any observable differences between the groups.
+
+The visualization plots the kernel density estimates of the redemption rates for households that received personalized coupons (Type A) and those that did not (Type B and C). We shaded the 95% confidence interval to represent the variability around the mean redemption rate for both groups.
+
+(![bs_ci](https://github.com/parkermoe/casual_inference_coupon_redemption/assets/75709283/f7404643-4fe1-4f5d-953e-2f187c432fa4)
+)
+
+*Figure: Kernel Density Estimates of Redemption Rates for Treatment and Control Groups*
+
+The bootstrap analysis revealed two distinct distributions, with the treatment group displaying a higher mean redemption rate compared to the control group. The 95% confidence interval is shaded in color, delineating the uncertainty around the estimated means. While the visual comparison suggests a difference between the groups, we must proceed with statistical testing to determine if the observed difference is statistically significant.
+
+
 
 ## Findings
 
