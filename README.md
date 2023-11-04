@@ -72,14 +72,6 @@ To further our understanding of the campaigns' effectiveness, we conducted a dif
 
 We visualized the total daily sales and overlaid the impact of the top 15 campaigns. The plot employs a color gradient to denote the intensity of each campaign's impact, providing an intuitive understanding of the sales fluctuations associated with the marketing efforts.
 
-(## Difference-in-Differences Analysis
-
-To further our understanding of the campaigns' effectiveness, we conducted a difference-in-differences analysis to assess their impact on daily sales. This econometric technique provided a framework for comparing sales dynamics before, during, and after the campaign periods, controlling for underlying trends.
-
-### Visualization of Campaign Impact
-
-We visualized the total daily sales and overlaid the impact of the top 15 campaigns. The plot employs a color gradient to denote the intensity of each campaign's impact, providing an intuitive understanding of the sales fluctuations associated with the marketing efforts.
-
 (![did_vis](https://github.com/parkermoe/casual_inference_coupon_redemption/assets/75709283/f8f289bc-0f81-4d55-bf8d-90eb0b8a4cae)
 )
 
